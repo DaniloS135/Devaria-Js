@@ -1,5 +1,8 @@
-console.log('Olá mundo, introdução a JS');
-console.log(`Data hora: ${new Date()}`);
+const olaMundo = 'Olá mundo, introdução a JS';
+const dataAtual = new Date();
+
+console.log(olaMundo);
+console.log(dataAtual);
 
 function mensagem(){
     alert('Chamamos um modal');
