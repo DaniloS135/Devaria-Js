@@ -4,10 +4,16 @@ const dataAtual = new Date();
 console.log(olaMundo);
 console.log(dataAtual);
 
-function mensagem(){
-    alert('Chamamos um modal');
+function mensagem(mensagem){
+    alert(mensagem);
 }
 
 function mensagem2(){
-    alert('Oba oba');
+    mensagem('Aprendendo funções');
 }
+
+const mensagemFinal =(mensagemFinal) => {
+    console.log(mensagemFinal);
+}
+
+mensagemFinal('Concluímos a execução')
